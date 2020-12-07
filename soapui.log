@@ -1,0 +1,33 @@
+2020-12-07 13:47:44,186 WARN  [SoapUI] Missing folder [C:\Users\SanjanaNayak\CustomerRepositoryBatch3\ext] for external libraries
+2020-12-07 13:47:44,736 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SanjanaNayak\soapui-settings.xml]
+2020-12-07 13:47:52,612 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SanjanaNayak/CustomerRepositoryBatch3/CustomerRepositoryService-SDETBatch3-soapui-project.xml]
+2020-12-07 13:47:54,952 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [CustomerRepositoryService_SDETBatch3]
+2020-12-07 13:47:54,957 INFO  [SoapUITestCaseRunner] Running Project [CustomerRepositoryService_SDETBatch3], runType = SEQUENTIAL
+2020-12-07 13:47:55,055 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase]
+2020-12-07 13:47:55,141 INFO  [SoapUITestCaseRunner] running step [SaveCustomer]
+2020-12-07 13:47:58,066 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:47:58,067 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:47:58,070 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-07 13:47:59,179 INFO  [log] id : 6553
+2020-12-07 13:47:59,323 INFO  [SoapUITestCaseRunner] running step [GetCustomerList]
+2020-12-07 13:48:14,034 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:14,034 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:48:14,035 INFO  [SoapUITestCaseRunner] running step [GetCustomerByID]
+2020-12-07 13:48:14,845 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:14,847 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:48:14,848 INFO  [SoapUITestCaseRunner] running step [DeleteByID]
+2020-12-07 13:48:16,181 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:16,181 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 13:48:16,185 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-07 13:48:16,203 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase], time taken: 20995ms, status: FINISHED
+2020-12-07 13:48:16,209 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [manual testcase]
+2020-12-07 13:48:16,217 INFO  [SoapUITestCaseRunner] running step [Save]
+2020-12-07 13:48:17,197 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:17,199 INFO  [SoapUITestCaseRunner] running step [GetList]
+2020-12-07 13:48:30,318 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:30,319 INFO  [SoapUITestCaseRunner] running step [GetByID]
+2020-12-07 13:48:31,062 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:31,063 INFO  [SoapUITestCaseRunner] running step [DeleteByID]
+2020-12-07 13:48:31,733 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-07 13:48:31,734 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [manual testcase], time taken: 15503ms, status: FINISHED
+2020-12-07 13:48:31,741 INFO  [SoapUITestCaseRunner] Project [CustomerRepositoryService_SDETBatch3] finished with status [FINISHED] in 36775ms
